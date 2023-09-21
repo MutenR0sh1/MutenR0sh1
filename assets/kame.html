@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamehameha Wave</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+		
+		
+
+        #startPoint {
+            position: absolute;
+            background-color: #blue; /* Blue color for the wave */
+			background-image: linear-gradient(#1828b3, #43a5e5, #1828b3);
+            width: 40px; /* Adjust the size of the starting point */
+            height: 40px; /* Adjust the size of the starting point */
+            border-radius: 50%; /* Make the starting point round */
+            left: 20px; /* Adjust the position of the starting point */
+            top: 50%; /* Adjust the vertical position of the starting point */
+            transform: translate(-50%, -50%); /* Center the starting point vertically */
+            z-index: 2; /* Ensure the starting point is above the wave */
+        }
+
+        #wave {
+            position: absolute;
+            background-color: blue; /* Blue color for the wave */
+			background-image: linear-gradient(#1828b3, #a7d2ee, #1828b3);
+            height: 20px;
+			left: 10px; /* Adjust the position of the starting point */
+            top: 49%; /* Adjust the vertical position of the starting point */
+            width: 0;
+            animation: kamehameha 1.5s linear infinite;
+        }
+
+        @keyframes kamehameha {
+             from {
+                width: 0; /* Start with width 0 */
+            }
+            to {
+                width: 30%; /* End with full width */
+            }
+		}
+    </style>
+</head>
+<body>
+    <div id="startPoint"></div>
+    <div id="wave"></div>
+</body>
+</html>
