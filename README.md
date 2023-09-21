@@ -10,6 +10,6 @@
 <br>
 
 <div align="center">
-<img max-width="800" src="https://github.com/MutenR0sh1/MutenR0sh1/blob/main/assets/muten_roshi_1.gif/"
+<img max-width="800" src="https://github.com/MutenR0sh1/MutenR0sh1/blob/main/assets/kame.gif/"
 </div>
 
