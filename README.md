@@ -13,3 +13,8 @@
 <img max-width="800" src="https://github.com/MutenR0sh1/MutenR0sh1/blob/main/assets/kame.gif/"
 </div>
 
+
+
+## GitHub Stats
+
+[![Muten Roshi GitHub stats](https://github-readme-stats.vercel.app/api?username=MutenR0sh1&show_icons=true)](https://github.com/MutenR0sh1)
